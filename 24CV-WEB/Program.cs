@@ -20,7 +20,7 @@ builder.Services.AddTransient<IEmailService, EmailService>();
 builder.Services.AddTransient<ICurriculumService, CurriculumService>();
 
 var app = builder.Build();
-
+//COMENTARIO AAAAAAAAAAAAAAAAA
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
