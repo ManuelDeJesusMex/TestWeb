@@ -8,6 +8,11 @@ namespace _24CV_WEB.Controllers
 {
     public class FormulariosController : Controller
     {
+        public IActionResult Curriculum () { 
+            return View();
+        
+        }
+
         private readonly IEmailService _emailService;
 
         public FormulariosController(IEmailService emailService)
